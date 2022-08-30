@@ -24,6 +24,9 @@ function calcular(event){
   if(imc <17){
     resultado = document.getElementById('resultado');
     resultado.innerHTML = '<br/> Seu resultado foi:' + imc + '<br/> Cuidado você está muito abaixo do peso!'
+  }else if(imc > 17 && imc <= 18.49){
+    resultado = document.getElementById('resultado');
+    resultado.innerHTML = '<br/> Seu resultado foi:' + imc + '<br/> Você está Abaixo do peso!'
   }
 
 
