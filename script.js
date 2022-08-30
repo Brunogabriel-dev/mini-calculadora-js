@@ -7,3 +7,15 @@ Entre 25 e 29,99 Acima do peso
 */
 
 // peso / (altura*altura);
+
+var peso;
+var altura;
+var imc;
+var resultados;
+
+function calcular(event){
+  event.preventDefault();
+
+  peso = document.getElementById('peso').value;
+  altura = document.getElementById('altura').value;
+}
